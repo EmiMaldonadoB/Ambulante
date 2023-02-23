@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;  
+  
+}
+
+body {
+    
+    width: 100vw;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    margin-top: 0px;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    max-width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+
+.containerHeader{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(114, 113, 36, 0.3);
+    border: 2px dotted #727124;
+    position: sticky;
+    top: 0;
+}
+
+.tituloAmbulante{
+    width: 20%;
+    height: auto;
+}
+
+.tituloBienvenidos{
+    color: #727124;
+    font-size: 25px;
+}
+
+.title-cards{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+
+}
+
+.container-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    width: 100vw;
+    height: 20vh;
+    background-repeat: no-repeat;
+    border: 1.75px solid #727124;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(114, 113, 36, 0.1);
+    
+}
+
+.imagenMenu{
+    display: flex;
+    width: 10vw;
+    height: 20vh;
+    opacity: 0.8;
+}
+
+.textoCard{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+
+
+ /* media querys */ 
+
+ @media screen and (max-width: 914px) {
+    
+    .imagenMenu{
+        display: flex;
+        width: 20vw;
+        height: 10vh;
+        opacity: 0.8;
+    }
+
+    .card{
+        width: 35vw;
+        
+        
+    }
+
+    .tituloAmbulante {
+        width: 40%;
+        height: auto;
+
+ }

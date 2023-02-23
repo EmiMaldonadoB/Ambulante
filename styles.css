@@ -112,13 +112,26 @@ body {
     }
 
     .card{
-        width: 35vw;
-        
-        
+        width: 25vw;
+        height: auto;
     }
 
     .tituloAmbulante {
         width: 40%;
         height: auto;
+    }
 
+    .container-card{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .containerHeader{
+        width: 99%;
+        height: 50%;
+        border: 1.5px dotted #727124;
+        
+    }
  }

@@ -1,6 +1,6 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
-
+  
+  @import url('./Fonts/Agrandir-Regular.otf');
 
 *{
     margin: 0px;
@@ -11,7 +11,7 @@
 body {
     
     width: 100vw;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'agrandir', regular;
     margin-top: 0px;
     height: 100vh;
     background-size:cover;

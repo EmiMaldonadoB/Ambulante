@@ -95,6 +95,7 @@ body {
 .textoCard{
     text-decoration: none;
     font-size: 15px;
+    color: rgba(114, 113, 36, 0.9);
 }
 
 
@@ -113,11 +114,11 @@ body {
 
     .card{
         width: 25vw;
-        height: auto;
+        height: 15vh;
     }
 
     .tituloAmbulante {
-        width: 40%;
+        width: 55%;
         height: auto;
     }
 
@@ -133,5 +134,16 @@ body {
         height: 50%;
         border: 1.5px dotted #727124;
         
+    }
+
+    .textoCard{
+        text-decoration:none;
+        font-size: 15px;
+        color: rgba(114, 113, 36, 0.9);
+        text-align: center;
+    }
+
+    #link{
+        text-decoration: none;
     }
  }

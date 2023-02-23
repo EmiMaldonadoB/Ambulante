@@ -1,0 +1,17 @@
+[
+    {
+       "nombre":"Shot de espresso.",
+       "precio": 220,
+       "categoria": "calientes"
+    },
+    {
+        "nombre":"Leche de almendras.",
+        "precio": 160,
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Leche de almendras.",
+        "precio": 160,
+        "categoria": "calientes"
+    }   
+ ]

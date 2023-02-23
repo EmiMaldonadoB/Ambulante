@@ -1,0 +1,48 @@
+[
+    {
+       "nombre":"Espresso doble",
+       "precio": 460,
+       "categoria": "calientes"
+    },
+    {
+        "nombre":"Americano.",
+        "precio": 500,
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Macchiato.",
+        "precio": 510,
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Latte (mediano/grande)",
+        "precio": "530/580",
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Capuccino (mediano/grande).",
+        "precio": "540/590",
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Mocaccino (mediano/grande).",
+        "precio": "540/590",
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Flat White.",
+        "precio": 580,
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Cortado chico.",
+        "precio": 520,
+        "categoria": "calientes"
+    },
+    {
+        "nombre":"Chocolate caliente.",
+        "precio": 550,
+        "categoria": "calientes"
+    }
+    
+ ]

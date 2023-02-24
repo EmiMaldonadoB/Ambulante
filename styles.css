@@ -102,7 +102,14 @@ body {
  /* media querys */ 
 
  @media screen and (max-width: 914px) {
-    
+    @font-face {
+        font-family: 'agrandir';
+        font-style: regular;
+        font-weight: 400;
+        src:
+          local("agrandir"),
+          url("./Fonts/Agrandir-Regular.otf") format("otf"),
+      }
     body{
         font-family: 'agrandir', regular;
        
@@ -261,5 +268,12 @@ body {
     
     .conteinerTablas{
         max-width: 100%;
+    }
+}
+
+
+ @media screen and (max-width: 667px){
+    .footer{
+        position: relative;
     }
 }

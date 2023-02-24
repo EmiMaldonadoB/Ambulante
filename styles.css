@@ -169,7 +169,7 @@ body {
         background-color: rgba(114, 113, 36, 0.3);
         border: 1px dotted #727124;
         margin: 0px;
-        position: relative;
+        
         bottom: 0;
        
     }
@@ -216,6 +216,20 @@ body {
     }
 
     .posAbsolut{
-        position: absolute;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .padd10{
+        padding: 10px;
+    }
+
+    .padd20{
+        padding: 20px;
+        align-items: center;
+    }
+
+    .paddRight{
+        padding-right: 43px;
     }
 }
